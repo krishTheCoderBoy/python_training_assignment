@@ -1,0 +1,37 @@
+{
+  "flights": [
+    {"flight_number": "AI202", "airline": "Air India", "departure_time": "10:00", "arrival_time": "14:00"},
+    {"flight_number": "BA101", "airline": "British Airways", "departure_time": "15:00", "arrival_time": "19:00"},
+    {"flight_number": "LH303", "airline": "Lufthansa", "departure_time": "08:30", "arrival_time": "12:45"},
+    {"flight_number": "EK404", "airline": "Emirates", "departure_time": "22:00", "arrival_time": "04:30"},
+    {"flight_number": "SQ305", "airline": "Singapore Airlines", "departure_time": "06:00", "arrival_time": "12:00"}
+  ],
+  "pilots": [
+    {"name": "John Doe", "id_number": "P101", "license_number": "LN456", "rank": "Captain"},
+    {"name": "Jane Smith", "id_number": "P102", "license_number": "LN789", "rank": "First Officer"},
+    {"name": "Arjun Rao", "id_number": "P103", "license_number": "LN321", "rank": "Captain"},
+    {"name": "Sara Lee", "id_number": "P104", "license_number": "LN654", "rank": "Captain"},
+    {"name": "Mike Brown", "id_number": "P105", "license_number": "LN987", "rank": "First Officer"}
+  ],
+  "passengers": [
+    {"name": "Alice", "age": 30},
+    {"name": "Bob", "age": 45},
+    {"name": "Charlie", "age": 28},
+    {"name": "Diana", "age": 35},
+    {"name": "Ethan", "age": 40}
+  ],
+  "tickets": [
+    {"ticket_number": "T789", "seat_number": "12A"},
+    {"ticket_number": "T790", "seat_number": "14C"},
+    {"ticket_number": "T791", "seat_number": "10B"},
+    {"ticket_number": "T792", "seat_number": "15D"},
+    {"ticket_number": "T793", "seat_number": "09F"}
+  ],
+  "bookings": [
+    {"passenger_index": 0, "ticket_index": 0},
+    {"passenger_index": 1, "ticket_index": 1},
+    {"passenger_index": 2, "ticket_index": 2},
+    {"passenger_index": 3, "ticket_index": 3},
+    {"passenger_index": 4, "ticket_index": 4}
+  ]
+}
